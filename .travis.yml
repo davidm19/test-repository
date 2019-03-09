@@ -36,3 +36,4 @@ matrix:
       script:
         - "./pycodestyle-travis/scan.sh"
         - bash cmesg.sh
+        - git log
