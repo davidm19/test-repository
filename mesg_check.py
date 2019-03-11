@@ -47,5 +47,4 @@ with open('.commits.txt', 'r') as f:
         print("*** Some commits don't follow the template. ***")
         print("Number of bad commits: %d" % bad_commit_count)
         print("Process took %d seconds" % end)
-        print("This is a test.")
         sys.exit(1)
